@@ -227,3 +227,37 @@
     transform: rotate(0deg);
   }
 }
+
+.about {
+  width: 100%;
+  display: flex;
+  min-width: 1110px;
+  align-items: center;
+  margin-top: 8.53rem;
+  justify-content: space-between;
+}
+
+.about article {
+  margin-right: 0.57rem;
+}
+
+.about article h2,
+.footer div article h2 {
+  font-size: 2.35rem;
+  letter-spacing: 0.08rem;
+}
+
+.about article p {
+  margin-top: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.about article button,
+.footer div button {
+  background-color: #eb7565;
+}
+
+.about article button:hover,
+.footer div button:hover {
+  background-color: #f6a560;
+}
