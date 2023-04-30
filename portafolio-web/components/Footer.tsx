@@ -18,7 +18,7 @@ const Footer = () => {
                 <a href="https://instagram.com/ksmaria13?igshid=ZDdkNTZiNTM="><i className="bi bi-instagram"></i></a>
         </li>
         <li className="list-inline-item">
-                <a href="www.linkedin.com/in/maría-chacón-0b570a274"><i className="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-chac%C3%B3n-0b570a274/"><i className="bi bi-linkedin"></i></a>
         </li>
 
         

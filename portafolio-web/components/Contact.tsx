@@ -22,7 +22,7 @@ const Contact = () => {
             <p className="lead  px-lg-8 mb-6 text-white">
             Da click en el botón y escríbeme al correo, estaré encantada de ayudarte.
             </p>
-            <Button variant="primary" size="lg" href="mariajchm1312@gmail.com" target="_blank">Contacto</Button>
+            <Button variant="primary" size="lg" href="mailto:mariajchm1312@gmail.com" target="_blank">Contacto</Button>
           </div>
         </div>
       </div>

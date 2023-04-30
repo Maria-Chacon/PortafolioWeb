@@ -38,7 +38,7 @@ const SectionAbout = () => {
               valores como el compañerismo.
             </p>
             <a
-              href="www.linkedin.com/in/maría-chacón-0b570a274"
+              href="https://www.linkedin.com/in/mar%C3%ADa-chac%C3%B3n-0b570a274/"
               className="btn btn-primary"
             >
               Ver perfil de LinkedIn
