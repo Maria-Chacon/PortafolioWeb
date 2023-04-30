@@ -106,3 +106,42 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Start Bootstrap carousel */
+.itemP {
+  height: 40rem;
+}
+.itemP > img {
+  width: 100%;
+  object-fit: cover;
+  height: 40rem;
+}
+
+.caption {
+  background-color: #0885ff33;
+  border-radius: 15px;
+  padding: 20px;
+}
+ 
+.caption > h5  {
+  font-size: 35px;
+  color: black;
+}
+
+.caption > p {
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}
+
+.caption > a {
+  text-decoration: none;
+  color:white;
+  background-color: black;
+  padding: 10px;
+  
+  text-transform: uppercase;
+  border-radius:1em;
+}
+
+ 
