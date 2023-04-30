@@ -38,7 +38,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <Container className="my-5">
+    <Container className="my-5" id="projects">
       <h2 className="text-center mb-5">Proyectos realizados</h2>
       <div className="overflow-auto mb-3 border rounded shadow p-3 ">
         <Carousel  activeIndex={index} onSelect={handleSelect}>

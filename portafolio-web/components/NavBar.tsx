@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import styles from "../src/styles/Home.module.css";
+
 
 const NavBar = () => {
   return (
@@ -9,8 +9,8 @@ const NavBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto" >
-          <Nav.Link href="about">Sobre mi</Nav.Link>
-          <Nav.Link href="#services">Mis Proyectos</Nav.Link>
+          <Nav.Link href="#about">Sobre mi</Nav.Link>
+          <Nav.Link href="#projects">Mis Proyectos</Nav.Link>
           <Nav.Link href="#contact">Contacto</Nav.Link>
         </Nav>
       </Navbar.Collapse>

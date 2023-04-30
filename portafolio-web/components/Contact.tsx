@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <div className="py-14 p-3 mb-2  bg-light text-black">
+    <div className="py-14 p-3 mb-2  bg-light text-black" id="contact">
       <div className="container">
         <div className="row">
           <div className="offset-lg-2 col-lg-8 col-md-12 col-12 text-center">
