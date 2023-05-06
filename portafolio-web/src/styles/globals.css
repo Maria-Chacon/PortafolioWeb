@@ -127,6 +127,24 @@ a {
   color: black;
   
 }
+.conctacto {
+  background-color: #0885ff33;
+  border-radius: 15px;
+  padding: 20px;
+}
+.conctacto > h2  {
+  color: black;
+  
+}
+.conctact {
+  text-decoration: none;
+  color:white;
+  background-color: black;
+  padding: 10px;
+  
+  text-transform: uppercase;
+  border-radius:1em;
+}
 
 .caption {
   background-color: #0885ff33;

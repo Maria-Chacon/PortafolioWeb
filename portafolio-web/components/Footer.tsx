@@ -27,10 +27,7 @@ const Footer = () => {
 
       <div
         className="text-center p-3">
-        © 2023 Copyright:
-        <a className="text-white">
-          María Chacón 
-        </a>
+        © 2023 Copyright: María Chacón 
       </div>
     </footer>
   );
