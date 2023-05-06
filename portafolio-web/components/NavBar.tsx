@@ -5,7 +5,7 @@ import { Navbar, Nav } from "react-bootstrap";
 const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="sm" collapseOnSelect>
-      <Navbar.Brand href="#home">MACHAM</Navbar.Brand>
+      <Navbar.Brand  className="ml-3" href="#home">MACHAM</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto" >
