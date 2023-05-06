@@ -12,8 +12,8 @@ const NavBar = () => {
           alt="Header Image"
           placeholder="blur"
           className="img-fluid"
-          width={100}
-          height={100}
+          width={70}
+          height={70}
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
