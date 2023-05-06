@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const CallToAction = () => {
   return (
     <div className="conctacto" id="contact">
       <div className="container">
@@ -30,4 +30,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default CallToAction;

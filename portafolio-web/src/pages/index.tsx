@@ -6,7 +6,7 @@ import SectionAbout from '../../components/SectionAbout';
 import NavBar from '../../components/NavBar';
 import Projects from '../../components/Projects';
 import Footer from '../../components/Footer';
-import Contact from '../../components/Contact';
+import CallToAction from '../../components/CallToAction';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
       <Hero />
       <SectionAbout />
       <Projects />
-      <Contact />
+      <CallToAction />
       <Footer />
       
 
