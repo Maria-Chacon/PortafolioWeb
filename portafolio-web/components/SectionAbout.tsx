@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SectionAbout = () => {
   return (
-    <div className="row align-items-center p-3 mb-2 bg-secondary text-white mt-0">
+    <div className=" aboutMe row align-items-center p-3 mb-2 text-black mt-0">
       <div className="col-md-6 order-md-1">
         <figure>
           <Image
@@ -37,12 +37,14 @@ const SectionAbout = () => {
               al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar
               valores como el compañerismo.
             </p>
-            <a
-              href="https://www.linkedin.com/in/mar%C3%ADa-chac%C3%B3n-0b570a274/"
-              className="btn btn-primary"
-            >
-              Ver perfil de LinkedIn
-            </a>
+            <div className="mt-5">
+              <a
+                className="aboutButton"
+                href="https://www.linkedin.com/in/mar%C3%ADa-chac%C3%B3n-0b570a274/"
+              >
+                Ver perfil de LinkedIn
+              </a>
+            </div>
           </div>
         </div>
       </div>

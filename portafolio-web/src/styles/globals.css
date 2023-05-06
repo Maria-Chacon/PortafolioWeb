@@ -117,6 +117,21 @@ a {
   height: 40rem;
 }
 
+.aboutMe {
+  background-color: #0885ff33;
+  border-radius: 15px;
+  padding: 20px;
+}
+.aboutButton {
+  text-decoration: none;
+  color:white;
+  background-color: black;
+  padding: 10px;
+  
+  text-transform: uppercase;
+  border-radius:1em;
+}
+
 .hero {
   background-color: #57CAEC ;
   border-radius: 15px;
