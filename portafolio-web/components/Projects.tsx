@@ -1,11 +1,4 @@
 import React from "react";
-import Image from "next/image";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useRef, useState } from "react";
 import { Carousel, Container } from "react-bootstrap";
 

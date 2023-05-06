@@ -117,6 +117,17 @@ a {
   height: 40rem;
 }
 
+.hero {
+  background-color: #57CAEC ;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.hero > h2  {
+  color: black;
+  
+}
+
 .caption {
   background-color: #0885ff33;
   border-radius: 15px;

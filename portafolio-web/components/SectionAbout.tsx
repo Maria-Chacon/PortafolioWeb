@@ -16,7 +16,7 @@ const SectionAbout = () => {
           />
         </figure>
       </div>
-      <div className="col-md-6 order-md-2 align-self-center">
+      <div className="col-md-6 order-md-2 align-self-center" id="about">
         <div className="row justify-content-center justify-content-md-start">
           <div className="col-sm-10 col-md-12">
             <h2 className="mb-3 font-weight-bold">
