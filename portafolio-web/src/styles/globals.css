@@ -118,7 +118,7 @@ a {
 }
 
 .aboutMe {
-  background-color: #0885ff33;
+  background-color: #1797be33;
   border-radius: 15px;
   padding: 20px;
 }
@@ -162,20 +162,21 @@ a {
 }
 
 .caption {
-  background-color: #0885ff33;
+  background-color: #0883ff8e;
   border-radius: 15px;
   padding: 20px;
 }
  
 .caption > h5  {
   font-size: 35px;
+  font-weight: bold;
   color: black;
 }
 
 .caption > p {
   font-size: 15px;
-  font-weight: 600;
-  color: gray;
+  font-weight: bold;
+  color: white;
 }
 
 .caption > a {

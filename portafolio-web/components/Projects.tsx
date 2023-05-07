@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect, useRef, useState } from "react";
 import { Carousel, Container } from "react-bootstrap";
+import GitPor from "/public/git.jpg";
+import Image from "next/image";
 
 type Project = {
   id: number;
@@ -34,15 +36,10 @@ const Projects = () => {
     <Container className="my-5" id="projects">
       <h2 className="text-center mb-5">Proyectos realizados</h2>
       <div className="overflow-auto mb-3 border rounded shadow p-3 ">
-        <Carousel  activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
           {projects.map((project) => (
             <Carousel.Item key={project.id} className={"itemP"} interval={4000}>
-              <img
-                src={
-                  "https://marketing4ecommerce.net/wp-content/uploads/2018/06/GitHub-logo-2-imagen.jpg"
-                }
-                alt="slide"
-              />
+              <Image src={GitPor} alt="slide" />
               <Carousel.Caption className="caption">
                 <h5 className="card-title mb-3">{project.name}</h5>
                 <p className="card-text">{project.description}</p>
